@@ -14,7 +14,7 @@ Azure AI Agent service hands on workshop (Internal)
     * Deploy text-embedding-ada-002 
     * Azure AI search index created 
 
-    *Pls refer previous workshop set up instructions, if needed - nileshvj2/AzureAIFoundry_Workshop*
+    *If required, please refer previous workshop set up instructions - nileshvj2/AzureAIFoundry_Workshop*
 
 # Set up 
 
