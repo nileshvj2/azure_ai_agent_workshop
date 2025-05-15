@@ -4,7 +4,7 @@ Azure AI Agent service hands on workshop (Internal)
 
 # Pre-requisite
 
-You need to have below resources set up in Azure: 
+1. You need to have below resources set up in Azure: 
 
     * Azure AI Foundry Hub and Project
     * Azure AI Foundry connections (using key or Entra authentication)
