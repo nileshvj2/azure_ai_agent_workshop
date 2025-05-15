@@ -1,7 +1,7 @@
 # azure_ai_agent_workshop
 Azure AI Agent service hands on workshop (Internal)
 
-## Set up
+# Set up
 
 1. You need to have below resources set up in Azure: 
 
@@ -25,3 +25,10 @@ Azure AI Agent service hands on workshop (Internal)
 4. For svc-aifoundry-user - add AZURE_TENANT_ID, AZURE_CLIENT_ID and AZURE_CLIENT_SECRET in the credentials.env file
 
 5. Provide all other required config values in the *credentials.env*
+
+
+# Disclaimer
+
+The information and code contained in this repo and any accompanying materials (including, but not limited to, scripts, sample codes, etc.) are provided “AS-IS” and “WITH ALL FAULTS.” by owner and contributors of the repo.
+
+Code and information in this repo is provided solely for demonstration purposes and does not represent Microsoft or any other company's official documentation. Author assumes no liability arising from your use of this material.
