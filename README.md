@@ -1,9 +1,10 @@
 # azure_ai_agent_workshop
+
 Azure AI Agent service hands on workshop (Internal)
 
-# Set up
+# Pre-requisite
 
-1. You need to have below resources set up in Azure: 
+You need to have below resources set up in Azure: 
 
     * Azure AI Foundry Hub and Project
     * Azure AI Foundry connections (using key or Entra authentication)
@@ -15,7 +16,9 @@ Azure AI Agent service hands on workshop (Internal)
 
     *Pls refer previous workshop set up instructions, if needed - nileshvj2/AzureAIFoundry_Workshop*
 
-2. Set up service principal using Azure Entra ID
+# Set up 
+
+2. Create new service principal using Azure Entra ID
     * Create service principal "svc-aifoundry-user" in Azure Entra ID and provide below permissions
         * *"Azure AI Developer"* permission at the resource group level
         * *"Cognitive services Open AI user"* permission at the resource group level
@@ -26,6 +29,10 @@ Azure AI Agent service hands on workshop (Internal)
 
 5. Provide all other required config values in the *credentials.env*
 
+
+# Execution 
+
+* Follow instructions in the notebook to complete workshop.
 
 # Disclaimer
 
