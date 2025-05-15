@@ -1,0 +1,7 @@
+pandas
+numpy
+python-dotenv
+azure-ai-projects
+azure-identity
+azure-search-documents
+azure-ai-inference[prompts]
