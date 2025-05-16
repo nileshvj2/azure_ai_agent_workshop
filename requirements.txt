@@ -1,7 +1,7 @@
 pandas
 numpy
 python-dotenv
-azure-ai-projects
+azure-ai-projects==1.0.0b10
 azure-identity
 azure-search-documents
 azure-ai-inference[prompts]

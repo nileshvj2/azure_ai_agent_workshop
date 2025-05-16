@@ -1,6 +1,6 @@
 # azure_ai_agent_workshop
 
-Azure AI Agent service hands on workshop (Internal)
+Hands on workshop to build a generative AI agent using Azure AI Foundry and Azure OpenAI service.
 
 # Pre-requisite
 
@@ -13,25 +13,21 @@ Azure AI Agent service hands on workshop (Internal)
     * Deploy gpt 4o-mini (or any gpt model of your choice)
     * Deploy text-embedding-ada-002 
     * Azure AI search index created 
-
-    *If required, please refer previous workshop set up instructions - nileshvj2/AzureAIFoundry_Workshop*
-
-# Set up 
-
-2. Create new service principal using Azure Entra ID
-    * Create service principal "svc-aifoundry-user" in Azure Entra ID and provide below permissions
-        * *"Azure AI Developer"* permission at the resource group level
+    * You need to have below permissions in Azure AI Foundry
+        * *"Azure AI Developer"* permission for AI project/at resource group level
         * *"Cognitive services Open AI user"* permission at the resource group level
-    
-3. Rename *credentials.txt* file to *credentials.env* file 
 
-4. For svc-aifoundry-user - add AZURE_TENANT_ID, AZURE_CLIENT_ID and AZURE_CLIENT_SECRET in the credentials.env file
+    *For detailed setup instructions, please refer to the previous workshop guide at: nileshvj2/AzureAIFoundry_Workshop*
 
-5. Provide all other required config values in the *credentials.env*
+2. You have github account created and you are familiar with using github.
+
+3. Familarity with Python and Jupyter notebooks is a plus but not required.
 
 
-# Execution 
+# Instructions 
 
+* Fork this repo using your github account.
+* You can run the notebook in your local environment or using github codespaces. (python 3.10 or above is required)
 * Follow instructions in the notebook to complete workshop.
 
 # Disclaimer
