@@ -4,22 +4,44 @@ Hands on workshop to build a generative AI agent using Azure AI Foundry and Azur
 
 # Pre-requisite
 
-1. You need to have below resources set up in Azure: 
+1. Environment Set up: 
 
-    * Azure AI Foundry Hub and Project
-    * Azure AI Foundry connections (using key or Entra authentication)
-        * Azure Open AI service
-        * Azure AI search service 
-    * Deploy gpt 4o-mini (or any gpt model of your choice)
-    * Deploy text-embedding-ada-002 
-    * Azure AI search index created 
-    * You need to have below permissions in Azure AI Foundry
-        * *"Azure AI Developer"* permission for AI project/at resource group level
-        * *"Cognitive services Open AI user"* permission at the resource group level
+Follow below steps to set up Azure AI Foundry Project environment 
 
-    *For detailed setup instructions, please refer to the previous workshop guide at: nileshvj2/AzureAIFoundry_Workshop*
+    * Use the **Basic Agent Setup** template provided in the Microsoft Learn documentation (link below).
 
-2. You have github account created and you are familiar with using github.
+    *Note: Prefer regions such as Sweden Central for deployment. Avoid using East US (EUS) or East US 2 (EUS2), as these regions may experience resource availability constraints.!*
+
+    https://learn.microsoft.com/en-us/azure/ai-services/agents/environment-setup#deployment-options 
+
+
+    * Open the newly created project using Azure AI Foundry portal.
+
+    * You should see below error message on the top - 
+
+    ![alt text](images/image.png)
+
+    Click on "Fix me" to assign Azure AI User role to your user principal. 
+
+    * Go to *'Models + endpoint'* - and confirm *gpt-4o* model is already deployed.
+
+    * Deploy new "text-embedding-ada-002" model
+
+    * Create new Azure AI Search Index on your own data. If you don't have any AI Search index created prior to this workshop, please create new AI Search Index.
+
+    You can use perks plus PDF document provided in */data* folder of this repo.
+
+    * Go to *'Connected resources'* of your project and add new connection to Azure AI search Index.
+
+    You can use key based on Entra ID authentication options.
+
+    In case if you are using Entra-ID based authentication, please refer to the permission-related instructions provided in the AI Foundry workshop: 
+
+    *nileshvj2/AzureAIFoundry_Workshop*
+
+    * At the end of this step, ensure that the connection to the AI Search index is successfully established and displayed in project connection list.
+
+2. You have github account created and familiar with github interface/commands.
 
 3. Familarity with Python and Jupyter notebooks is a plus but not required.
 
