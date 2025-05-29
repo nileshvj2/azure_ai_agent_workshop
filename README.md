@@ -29,15 +29,21 @@ Follow below steps to set up Azure AI Foundry Project environment
 
 * Create new Azure AI Search Index on your own data. If you don't have any AI Search index created prior to this workshop, please create new AI Search Index.
 
-    You can use perks plus PDF document provided in */data* folder of this repo.
+    * You can use perks plus PDF document provided in */data* folder of this repo.
+
+    * Suggestion: use AI search Integrated vectorization option and enable semantic search.
+
+    * Make sure you use *text-embedding-ada-002* model for embeddings.
+
+    * Please refer AI Foundry workshop instruction if needed:  *[nileshvj2/AzureAIFoundry_Workshop/Day-1/1.3.2-Integrated Vector Indexing.md](https://github.com/nileshvj2/AzureAIFoundry_Workshop/blob/main/Day-1/1.3.2-Integrated%20Vector%20Indexing.md)*
 
 * Go to *'Connected resources'* of your project and add new connection to Azure AI search Index.
 
     You can use key based on Entra ID authentication options.
 
-    In case if you are using Entra-ID based authentication, please refer to the permission-related instructions provided in the AI Foundry workshop: 
+    In case if you are using Entra-ID based authentication, please make sure you have right permissions set up.  
 
-    *nileshvj2/AzureAIFoundry_Workshop*
+    Please refer AI Foundry workshop instruction if needed:  *[nileshvj2/AzureAIFoundry_Workshop/Day-1/1.1-Project Set Up.md](https://github.com/nileshvj2/AzureAIFoundry_Workshop/blob/main/Day-1/1.1-Project%20Set%20Up.md)*
 
 * At the end of this step, ensure that the connection to the AI Search index is successfully established and displayed in project connection list.
 
