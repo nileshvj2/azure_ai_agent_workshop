@@ -5,17 +5,25 @@ Hands on workshop to build a generative AI agent using Azure AI Foundry and Azur
 # Pre-requisite
 
 1. You need to have below resources set up in Azure: 
-
+    
     * Azure AI Foundry Hub and Project
+
     * Azure AI Foundry connections (using key or Entra authentication)
+
         * Azure Open AI service
+
         * Azure AI search service 
+
     * Deploy gpt 4o-mini (or any gpt model of your choice)
+
     * Deploy text-embedding-ada-002 
+
     * Azure AI search index created 
+
     * You need to have below permissions in Azure AI Foundry
-        * *"Azure AI Developer"* permission for AI project/at resource group level
-        * *"Cognitive services Open AI user"* permission at the resource group level
+
+        *  *"Azure AI Developer"* permission for AI project/at resource group level
+        *  *"Cognitive services Open AI user"* permission at the resource group level
 
     *For detailed setup instructions, please refer to the previous workshop guide at: nileshvj2/AzureAIFoundry_Workshop*
 
